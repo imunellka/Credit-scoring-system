@@ -1,6 +1,15 @@
 # Credit-scoring-system
 Интерактивные веб-приложение через streamlit для задачи кредитного скоринга
 
+Try app [here](https://titanic.streamlit.app/)!
+
+## Files
+
+- `app.py`: streamlit app file
+- `model.py`: script for generating the Random Forest classifier model
+- `credit_score.csv` and `saved_model.mw`: data file and pre-trained model
+
+
 _Целевая переменная_ (таргет) – `SeriousDlqin2yrs`: клиент имел просрочку 90 и более дней
 
 ### Признаки
