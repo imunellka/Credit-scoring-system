@@ -22,6 +22,18 @@ def show_main_page():
     st.markdown(
         "## Определяем, вероятность просрочки выплат на 90 и более дней"
     , unsafe_allow_html=True)
+    # image2 = Image.open('data/theme.png')
+    custom_css = """
+        <style>
+        body {
+            background: 
+     url(data/theme.png) right bottom no-repeat;
+     margin-right: 200px;
+        }
+        </style>
+        """
+    st.markdown(custom_css, unsafe_allow_html=True)
+    # st.image(image2,width = 300)
 
 
 def write_user_data(df):
