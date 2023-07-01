@@ -8,7 +8,7 @@ def process_main_page():
 
 
 def show_main_page():
-    image = Image.open('data/kredito24_card.png')
+    image = Image.open('https://github.com/imunellka/Credit-scoring-system/blob/main/credit_scoring_app2/data/kredito24_card.png')
 
     st.set_page_config(
         layout="wide",
