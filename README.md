@@ -1,7 +1,7 @@
 # Credit-scoring-system
 Интерактивные веб-приложение через streamlit для задачи кредитного скоринга
 
-Try app [here](https://titanic.streamlit.app/)!
+Try app [here](https://creditscor.streamlit.app)!
 
 ## Files
 
