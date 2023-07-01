@@ -18,7 +18,7 @@ def show_main_page():
 
     )
     st.image(image)
-    st.divider()
+    #st.divider()
     st.markdown(
         "## Определяем, вероятность просрочки выплат на 90 и более дней"
     , unsafe_allow_html=True)
